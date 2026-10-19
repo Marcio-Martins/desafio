@@ -8,6 +8,8 @@ Exercício de programação em Python para praticar lógica, condicionais, laço
 - Sacar respeitando o saldo disponível, o limite por saque e a quantidade máxima de saques.
 - Consultar extrato e saldo atual.
 - Encerrar o programa pelo menu.
+- Tratar entradas numéricas inválidas sem interromper o programa.
+- Aceitar vírgula ou ponto como separador decimal.
 
 ## Pré-requisitos
 
@@ -38,12 +40,13 @@ python desafio.py
 
 - Laços while e condicionais if/elif/else
 - Controle de estado com variáveis
-- Validação básica de valores
+- Validação de entrada e tratamento de ValueError
+- Verificação de valores finitos
 - Formatação de moeda e montagem de extrato
 
-## Limitações conhecidas
+## Limitações
 
-Este é um exercício didático. A versão atual converte entradas de valores diretamente para float; entradas não numéricas podem interromper a execução. Em uma evolução futura, recomenda-se tratar erros de conversão e usar Decimal para cálculos monetários.
+Este é um exercício didático e utiliza float para os valores monetários. Para uma aplicação financeira real, seria necessário adotar representação decimal apropriada, persistência de dados, autenticação, auditoria e testes abrangentes.
 
 ## Autor
 
