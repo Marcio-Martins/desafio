@@ -16,37 +16,31 @@ Exercício de programação em Python para praticar lógica, condicionais, laço
 - Python 3
 - Terminal ou Visual Studio Code
 
-Verifique a instalação:
-
-~~~bash
-python --version
-~~~
-
-No Windows, você também pode usar:
-
-~~~powershell
-py --version
-~~~
-
 ## Como executar
-
-Na raiz do repositório, execute:
 
 ~~~bash
 python desafio.py
 ~~~
 
+## Testes automatizados
+
+Os testes cobrem a leitura de valores com ponto ou vírgula decimal e o tratamento de entradas inválidas e infinitas.
+
+~~~bash
+python -m unittest discover -s tests -v
+~~~
+
 ## Conceitos praticados
 
-- Laços while e condicionais if/elif/else
+- Laços e condicionais
 - Controle de estado com variáveis
 - Validação de entrada e tratamento de ValueError
 - Verificação de valores finitos
-- Formatação de moeda e montagem de extrato
+- Testes automatizados com unittest
 
 ## Limitações
 
-Este é um exercício didático e utiliza float para os valores monetários. Para uma aplicação financeira real, seria necessário adotar representação decimal apropriada, persistência de dados, autenticação, auditoria e testes abrangentes.
+Este é um exercício didático e utiliza float para valores monetários. Para uma aplicação financeira real, seria necessário adotar representação decimal apropriada, persistência de dados, autenticação, auditoria e testes abrangentes.
 
 ## Autor
 
